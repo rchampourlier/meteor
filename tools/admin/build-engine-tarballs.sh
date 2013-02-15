@@ -24,7 +24,7 @@ ln -s "$ENGINE_VERSION" "$TMPDIR/.meteor/engines/latest"
 ln -s engines/latest/bin/meteor "$TMPDIR/.meteor/meteor"
 
 # tar it up
-OUTDIR="$TOPDIR/dist"
+OUTDIR="$TOPDIR/dist/engines/$ENGINE_VERSION"
 rm -rf "$OUTDIR"
 mkdir -p "$OUTDIR"
 
