@@ -1,0 +1,3 @@
+[submodule "packages/accounts-linkedin"]
+	path = packages/accounts-linkedin
+	url = https://github.com/rchampourlier/meteor-accounts-linkedin
